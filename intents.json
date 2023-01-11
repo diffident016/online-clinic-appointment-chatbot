@@ -11,8 +11,8 @@
         "Good day"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
+        "Hey!",
+        "Hello, thanks for chatting",
         "Hi there, what can I do for you?",
         "Hi there, how can I help?"
       ]
@@ -21,7 +21,7 @@
       "tag": "goodbye",
       "patterns": ["Bye", "See you later", "Goodbye"],
       "responses": [
-        "See you later, thanks for visiting",
+        "See you later, thanks for chatting.",
         "Have a nice day",
         "Bye! Come back again soon."
       ]
@@ -32,52 +32,159 @@
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
-      "tag": "items",
+      "tag": "appointment",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "How much does the appointment cost?",
+        "How much will I pay for the appointment?",
+        "How much will the consultation set you back?",
+        "How much is the appointment going to cost?",
+        "What is the cost of the appointment?",
+        "When I book an appointment, how much am I going to pay?",
+        "How much will I be charged when I book an appointment?"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "The appointment cost is 300.00 pesos.",
+        "The cost of the appointment is 300.00 pesos only."
       ]
     },
     {
-      "tag": "payments",
+      "tag": "address",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "What is the exact address of the clinic?",
+        "Where do your clinic located at?",
+        "Where is the clinic located?",
+        "Can you tell me the address of the clinic?",
+        "Could you please provide the clinic's address?",
+        "Can you give me the clinic's address?",
+        "Please let me know the clinic's address."
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "We are located at Purok 2 North Poblacion Maramag Bukidnon.",
+        "Our clinic is at Purok 2 North Poblacion Maramag Bukidnon."
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "available",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "Is the doctor Available?",
+        "At what time can I meet the doctor?",
+        "Is the doctor available during daytime?",
+        "Is there clinic hours in the evening?",
+        "Does the doctor conduct consultation during afternoon?",
+        "Does the doctor meet patients in the morning?",
+        "Is the clinic open the whole day?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "The doctor hours is between 1pm - 4pm.",
+        "The doctor is available only between 1pm - 4pm."
       ]
     },
     {
-      "tag": "funny",
+      "tag": "after",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "Can I make payment after the consultation?",
+        "Can I pay after my consultation with the doctor?",
+        "Is it okay to pay after the appointment?",
+        "Can I successfully book an appointment if I only pay at the clinic?",
+        "Would my booking be successful if I am going to pay at the clinic?",
+        "Do you allow late payment for the appointment?",
+        "Is it required to pay first so that I can continue with the appointment?",
+        "If I was not able to make an online payment, would my booking be successful?"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "No, you cannot continue with the online appointment without making an online payment.",
+        "Unfortunately, no, you need to pay and book your appointment first."
+      ]
+    },
+    {
+      "tag": "visit",
+      "patterns": [
+        "How long will this visit likely last?",
+        "How long do you expect this visit lasting?",
+        "What is the likely duration of this visit?",
+        "What is the anticipated duration of this visit?",
+        "How long will this visit probably last?",
+        "How long do you anticipate this visit lasting?"
+      ],
+      "responses": [
+        "Mostly it may take half an hour or it depends on the what patient's condition.",
+        "It depends on what condition the patient has."
+      ]
+    },
+    {
+      "tag": "doctor",
+      "patterns": [
+        "Whats the doctor's Full name?",
+        "What is the full name of the doctor?",
+        "What is the full name of the physician?",
+        "Can you give me the full name of the doctor?",
+        "Please let me know of the doctor’s full name."
+      ],
+      "responses": [
+        "Our doctor is Dr. Kent Kentilitisca.",
+        "His name is Dr. Kent Kentilitisca."
+      ]
+    },
+    {
+      "tag": "refund",
+      "patterns": [
+        "Can I get refund once i cancel my appointment?",
+        "When I cancel my appointment, am I eligible for a refund?",
+        "If I cancel my appointment, will I receive a refund?",
+        "I canceled my appointment; can I get a refund?",
+        "Can I get a refund if I cancel my appointment?",
+        "When I cancel my booking, am I qualified for a refund?"
+       
+      ],
+      "responses": [
+        "Sorry, but you can only change your scheduled appointment.",
+        "Unfortunately, no, you can only change your schedule."
+      ]
+    },
+    {
+      "tag": "refferal",
+      "patterns": [
+        "Do I need to get a refferal to see the doctor",
+        "Do I require a referral in order to see the doctor?",
+        "Does doctor referal is required?",
+        "Is a referral required for me to see the doctor?",
+        "To see a doctor, do I need a referral?",
+        "Would the clinic require me to have a referral in order to meet or see the doctor?",
+        "Does meeting with the doctor requires a referral?"
+        
+      ],
+      "responses": [
+        "No, that won't be necessary.",
+        "No, all you need to do is to book an appointment."
+      ]
+    },
+    {
+      "tag": "bring",
+      "patterns": [
+        "May I bring a family member or a friend to meet with the doctor?",
+        "Can I bring a loved one or a friend with me to my appointment with the doctor?",
+        "I want to meet with the doctor, may I bring a family member or a friend?",
+        "When I visit the doctor, may I bring a loved one or a friend?",
+        "Can I bring anyone with me during the consultation with the doctor?",
+        "Do you allow patients to bring anyone with them during the consultation?"
+      ],
+      "responses": [
+        "Yes you may if you are an illiterate,underage,disabled,or senior citizen.",
+        "Sure,we have no problem with that."
+      ]
+    },
+    {
+      "tag": "work",
+      "patterns": [
+        "how does it work?",
+        "How does the app work?",
+        "How does this app operate?",
+        "Can you tell me how this app works?",
+        "What are the things to do to make this app work?"
+      ],
+      "responses": [
+        "You need to create an account first and setup your profile.",
+        "After you create you account, make sure you setup you profile."
       ]
     }
   ]
