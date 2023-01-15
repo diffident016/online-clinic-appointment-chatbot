@@ -115,9 +115,10 @@
       "tag": "doctor",
       "patterns": [
         "Whats the doctor's Full name?",
-        "What is the full name of the doctor?",
-        "What is the full name of the physician?",
-        "Can you give me the full name of the doctor?",
+        "Who is your doctor?",
+        "What is the name of the doctor?",
+        "What is the name of the physician?",
+        "Can you give me the name of the doctor?",
         "Please let me know of the doctor’s full name."
       ],
       "responses": [
@@ -184,7 +185,7 @@
       ],
       "responses": [
         "You need to create an account first and setup your profile.",
-        "After you create you account, make sure you setup you profile."
+        "After you create your account, make sure to setup your profile."
       ]
     }
   ]
